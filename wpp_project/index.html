@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopzy | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+ <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,200;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head> <!--head tag-->
+<body>  <!--body tag -->
+     <!--****************Header and Menu Section*************** -->
+
+<div class="header">    <!--Header tag contains the navbar/menu. class container is used here. -->
+    <div class="container">
+        <div class="navbar">   <!--nav tag for navbar -->
+            <div class="logo">
+                <img src="images/shopzylogo180x90.png" width="125px" >    <!--img src tag for img locations--> 
+            </div>
+            <nav>
+                <ul id="MenuItems">  
+                    <li><a href="">Home</a></li>  <!--li tag for list of unordered list. anchor tag for link is used inside it.-->
+                    <li><a href="">Products</a></li>  <!--li tag for list of unordered list. anchor tag for link is used inside it.-->
+                    <li><a href="">About</a></li>     <!--li tag for list of unordered list. anchor tag for link is used inside it.-->
+                    <li><a href="">Contact</a></li>     <!--li tag for list of unordered list. anchor tag for link is used inside it.-->
+                    <li><a href="">Account</a></li>    <!--li tag for list of unordered list. anchor tag for link is used inside it.-->
+                </ul>  <!--ul end tag for unordered list..-->
+            </nav>   <!--nav end tag for navbar -->
+            <img src="images/cart.png" width="30px" height="30px">  <!---img src for specified the image path . width and height for specifies resolution-->
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> <!---img src for specified the image path . width and height for specifies resolution,,onclick event occurs when user click on any buttons,menutoggle use for menu icon-->
+              </div>  
+             <div class="row">
+                <div class="col-2">
+                <h1>Give Your Workout<br>A New Style!</h1> <!---h1 in html use for largest font size-->
+                <p>Success is not always about greatness. It's about 
+                    consistency. consistent<br>hard work gains Success. Greatness      <!---p tag use for create paragraph in lines and <br> tag use for break in the line to create new line-->
+                    will come.
+                </p>
+                <a href=""class="btn">Expore Now</a>   <!--anchor tag for link is used inside it and anchor class btn use for buttons-->
+             </div>
+             <div class="col-2">
+                 <img src="images/image1.png" > <!---img src for specified the image path -->
+             </div>
+    </div>
+  </div>
+  <!------featured categories ---------->
+  <div class="categories">       <!---<div> tags defines division or section in HTML such as class -->
+    <div class="small-container">  <!---<div> tags defines division or section in HTML such as class name small-container which styled after using CSS or javascript -->
+        <div class="row">  <!--div class row defines row-->
+            <div class="col-3">   <!--div class col-3 defines coloum section in existing row-->
+                <img src="images/category-1.jpg" >  <!---img src for specified the image path -->
+            </div>
+            <div class="col-3">            <!--div class col-3 defines coloum section in existing row-->
+                <img src="images/category-2.jpg" >  <!---img src for specified the image path -->
+            </div>
+            <div class="col-3">    <!--div class col-3 defines coloum section in existing row-->
+                <img src="images/category-3.jpg" >  <!---img src for specified the image path -->
+            </div>
+        </div>
+      </div>
+    </div>
+    
+      <!------**featured categories div** ---------->
+      <div class="small-container">   <!--div class defines a section name small-container-->
+        <h2 class="title">Featured Products</h2>  <!--h2 tag use for large font size-->
+        <div class="row">      <!--div class row defines row and contains class col-4-->
+            <div class="col-4">  <!--div class col-3 defines coloum section at existing row in featured product section -->
+                <img src="images/product-1.jpg" >      <!---img src for specified the image path -->
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">      <!-- <div> tag defines a division or a section in an HTML document.div with class rating is used in css and javascript-->  
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>   <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>   <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>   <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div> <!--end of div class small-container of Featured products-->
+                <p>$35.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div> 
+            <div class="col-4">  <!-- <div> tag defines a division or a section in an HTML document.div with class col-4 is used in css and javascript-->  
+                <img src="images/product-2.jpg" >
+                <h4>Black-Dizzy Shoe</h4>
+                <div class="rating">   <!-- <div> tag defines a division or a section in an HTML document.div with class rating is used in css and javascript-->  
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i> <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a>  <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>  
+            <div class="col-4"> <!-- <div> tag defines a division or a section in an HTML document.div with class col-4 is used in css and javascript-->  
+                <img src="images/product-3.jpg" > <!--img src is use for specified the path of product-3 image into the div class col-4-->
+                <h4>Sport - Joggers</h4> <!--h4 use for font size-->
+                <div class="rating">  <!-- <div> tag defines a division or a section in an HTML document.div with class rating is used in css and javascript-->  
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div> <!--end of div class rating under col-4 class-->
+                <p>$65.00</p> 
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>   <!--end of div class col-4-->
+            <div class="col-4"> <!-- <div> tag defines a division or a section in an HTML document.div with class col-4 is used in css and javascript-->  
+                <img src="images/product-4.jpg" >  <!--img src is use for specified the path of product-4 image into the div class col-4-->
+                <h4>Blue T-shirt</h4>     <!--h4 use for font size-->
+                <div class="rating">  <!--starting of div class rating-->
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$30.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>                                        
+        </div>
+        <!--**Latest Product Section Start**-->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" > <!--img src is use for specified the path of product-5 image into the div class col-4-->
+                <h4>Winter Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i> <!--icon tag use for specifies icons here given icon is empty  star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a>  <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div> 
+            <div class="col-4">
+                <img src="images/product-6.jpg" > <!--img src is use for specified the path of product-6 image into the div class col-4-->
+                <h4>Puma's T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>  
+            <div class="col-4">
+                <img src="images/product-7.jpg" > <!--img src is use for specified the path of product-7 image into the div class col-4-->
+                <h4>HRX Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i> <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$5.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div> 
+            <div class="col-4"> 
+                <img src="images/product-8.jpg" > <!--img src is use for specified the path of product-8 image into the div class col-4-->
+                <h4>Classic Rolex Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>                      
+         </div>
+         <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" > <!--img src is use for specified the path of product-9 image into the div class col-4-->
+                <h4>Titan Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div> 
+            <div class="col-4">
+                <img src="images/product-10.jpg" > <!--img src is use for specified the path of product-10 image into the div class col-4-->
+                <h4>Black Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a>  <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>  
+            <div class="col-4">
+                <img src="images/product-11.jpg" >
+                <h4>Bata Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a>  <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div> 
+            <div class="col-4">
+                <img src="images/product-12.jpg" >
+                <h4>Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add to cart</a> <!--<a> tag defines a hyperlink, which is used to link from one page to another here with a button name Add to cart-->
+            </div>                      
+         </div>
+      </div>
+      <!------------Offer--------------->
+      <div class="Offer">     <!-- <div> tag defines a division or a section in an HTML document.div with class offer is used in css and javascript-->
+        <div class="small-container"> <!--div with class small-container is used in css and javascript-->
+            <div class="row">   <!--div with  subclass row in class small-container is used in css and javascript-->
+                <div class="col-2">  <!--div with  subclass col-2 of class row is used in css and javascript-->
+                    <img src="images/exclusive.png" class="offer-img" >
+                </div>
+                <div class="col-2">
+                    <p>Excusively Available on Shopzy</p>
+                    <h1>Smart Band</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger
+                        (than Mi Band 3) Amoled color full-touch display with 
+                        adjustable brightness, so everything is clear as can 
+                        be.</small>
+                        <br>
+                    <a href="" class="btn">Buy Now</a>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+<!--------testimonial-------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Happy to get extremely good quality products from Shopzy. Blah </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div> 
+                <img src="images/user-1.png" >
+                <h3>Falguni Saha </h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Quality of the products and<br> behaviour of their are both excellent</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div> 
+                <img src="images/user-3.png" >
+                <h3>Alisa Parkar</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Fast shipping , Excellent Quality.They are worth of becoming No.1 in Bangladesh </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star"></i>  <!--icon tag use for specifies icons here given icon is  star-->
+                    <i class="fa fa-star-half-o"></i>  <!--icon tag use for specifies icons here given icon is empty star-->
+                </div> 
+                <img src="images/user-2.png" >
+                <h3>Abir Badhon</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Brands-------->
+<div class="class">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+               <img src="images/logo-godrej.png"> 
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png"> 
+             </div>
+             <div class="col-5">
+                <img src="images/logo-coca-cola.png"> 
+             </div>
+             <div class="col-5">
+                <img src="images/logo-paypal.png"> 
+             </div>
+             <div class="col-5">
+                <img src="images/Temp-180x90.jpg"> 
+             </div>
+        </div>
+    </div>
+</div>
+
+<!------------footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and ios.</p>
+      <div class="app-logo">
+        <img src="images/play-store.png" >
+        <img src="images/app-store.png" >
+      </div>
+
+      </div>   
+      <div class="footer-col-2">
+        <img src="images/shopzy_logo.png">
+        <p>Our purpose to give you the pleasure of shopping.</p>
+      </div>    
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+            <li>Coupons</li>
+            <li>Blog</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+        </ul>
+      
+      </div>  
+      <div class="footer-col-4">
+        <h3>Useful Links</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+      
+      </div>  
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2022 - Md Foysal Hossain</p>
+    </div>
+</div>
+
+<!-----js for toggle menu------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
